@@ -44,7 +44,7 @@ fun LocationPermissionDetails(onContinueClick: () -> Unit) {
             text = stringResource(id = R.string.location_permission_description),
             textAlign = TextAlign.Center,
             fontSize = 18.sp,
-            color = Color.White
+            color = Color.Black
         )
         Button(onClick = onContinueClick) {
             Text(text = stringResource(id = R.string.location_permission_continue))
