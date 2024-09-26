@@ -1,10 +1,9 @@
-package com.example.weatherapp.ui.theme
+package com.example.weatherapp
 
 import android.annotation.SuppressLint
 import android.content.SharedPreferences
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.weatherapp.WeatherRepository
 import com.example.weatherapp.api.WeatherModel
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.Flow
